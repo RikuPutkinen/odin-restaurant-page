@@ -36,6 +36,7 @@ div#content {
   color: black;
   padding: 2rem 4rem;
   margin: auto;
+  margin-top: 5rem;
   width: max(500px, 50vw);
 }
 
@@ -44,6 +45,33 @@ h1 {
   margin-bottom: 2rem;
 }
 
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 p {
   text-align: justify;
+}
+
+.item {
+  margin: 2rem auto;
+}
+
+.name {
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.description {
+  display: flex;
+  gap: 2rem;
+}
+
+.item img {
+  object-fit: scale-down;
 }
