@@ -75,3 +75,15 @@ p {
 .item img {
   object-fit: scale-down;
 }
+
+.contact > h2 {
+  text-align: start;
+}
+
+li {
+  list-style: none;
+}
+
+.contact:first-of-type {
+  margin-bottom: 2rem;
+}

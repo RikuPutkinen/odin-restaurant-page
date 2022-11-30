@@ -1,6 +1,7 @@
 import loadHome from "./home";
 import loadMenu from "./menu";
-import './styles.css';
+import loadContact from "./contact";
+import './style.css';
 
 const container = document.getElementById('content');
 const homeButton = document.getElementById('home');
@@ -23,9 +24,9 @@ menuButton.addEventListener('click', () => {
   loadMenu(container);
 });
 
-/*contactButton.addEventListener('click', () => {
+contactButton.addEventListener('click', () => {
   clearPage();
   loadContact(container);
-});*/
+});
 
 loadHome(container);
